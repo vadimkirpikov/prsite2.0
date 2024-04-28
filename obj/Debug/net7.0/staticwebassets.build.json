@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "kvRgA1vJZvl7lyC5UCYddczQ63SRZbLoYCTnQ8+MyDI=",
+  "Source": "test1",
+  "BasePath": "_content/test1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "test1\\wwwroot",
+      "Source": "test1",
+      "ContentRoot": "C:\\Users\\Sveta\\source\\repos\\test1\\wwwroot\\",
+      "BasePath": "_content/test1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Sveta\\source\\repos\\test1\\wwwroot\\styles.css",
+      "SourceId": "test1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sveta\\source\\repos\\test1\\wwwroot\\",
+      "BasePath": "_content/test1",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿@using Microsoft.AspNetCore.Html
+
+@{
+    Layout = "_Layout";
+    string abc = "print(\"Hello\n world\")";
+    string enters = "\n\n\n\n\n";
+}
+<p>@(new HtmlString(ViewBag.Text))</p>
