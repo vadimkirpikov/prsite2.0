@@ -1,8 +1,20 @@
-﻿@model IEnumerable<string>
-@{
-    Layout = "_Layout";
-}
-@foreach (var lang in Model)
-{
-    <div>@lang</div>
-}
+﻿@using Markdig
+@using Microsoft.AspNetCore.Html
+@using test1.TestModels
+@model IEnumerable<IDescription>
+
+<link rel="stylesheet" href="~/staticfiles1/staticfiles2/css/main.css" />
+<section id="hero">
+    <h2>Туториалы по программированию</h2>
+    <p>Изучайте программирование с нашими удобными и информативными туториалами.</p>
+</section>    
+<section id="tutorials">
+     @foreach (var sect in Model)
+         {
+             <div class="tutorial">
+                 <h3>@sect.Title</h3>
+                 <p>@sect.Preview</p>
+                 <a href=@sect.Url class="btn">Начать изучение</a>
+             </div>                     
+         }       
+</section>            

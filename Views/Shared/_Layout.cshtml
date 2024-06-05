@@ -1,14 +1,42 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/a11y-dark.css">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/staticfiles1/staticfiles2/css/style.css"/>
+    <link rel="icon" href="~/staticfiles1/staticfiles2/css/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    
+    <script src="~/staticfiles1/staticfiles2/css/dom.js"></script>
     <script>hljs.highlightAll();</script>
+    <title>@ViewBag.Title</title>
 </head>
 <body>
-<div>Hello World</div>
-@RenderBody()
+<div class="mainbody">
+    <header>
+        <div id="header"><a href="/"><b class="main_title">PROGA.RU</b></a></div>
+    </header>
+    <button class="menu-button" onclick="myFunction()"></button>
+    <nav class="vertical-menu-content" id="myDropdown">
+        <div class="paragraphs">
+            @{
+                foreach (var tutorial in ViewBag.Tutorials)
+                {
+                    <a id=@tutorial.Id class="item" href=@tutorial.Url><b>@tutorial.Title</b></a>
+                }
+            }
 
+        </div>
+    </nav>    
+    <nav class="horizontal-nav-scroll">
+        @foreach (var s in ViewBag.Sections)
+        {
+            <a class="horizontal-tutorial" href=@s.Url><b>@s.Title</b></a>
+        }
+    </nav>
+</div>
+<article class="render">
+    @RenderBody()
+</article>
 </body>
 </html>

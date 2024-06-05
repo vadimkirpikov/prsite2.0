@@ -1,8 +1,24 @@
 ﻿@using Microsoft.AspNetCore.Html
-
 @{
-    Layout = "_Layout";
-    string abc = "print(\"Hello\n world\")";
-    string enters = "\n\n\n\n\n";
+    HtmlString PageSwap()
+    {
+        string res = "<p class='page-swap'>";
+        if (!ViewBag.BackLink.Equals("invalid"))
+        {
+            res += $"<a class='swap back' href='{ViewBag.BackLink}'>НАЗАД</a>";
+        }
+        if (!ViewBag.ForwardLink.Equals("invalid"))
+        {
+            res += $"<a class='swap forward' href='{ViewBag.ForwardLink}'>ВПЕРЕД</a>";
+        }
+        res += "</p>";
+        return new HtmlString(res);
+    }
 }
-<p>@(new HtmlString(ViewBag.Text))</p>
+<div>
+    <script>makeMark(@ViewBag.Tutorial.Id)</script>
+    @PageSwap()
+    <h2>@ViewBag.Tutorial.Title</h2>
+    @(new HtmlString(ViewBag.Tutorial.Text))
+    @PageSwap()
+</div>       

@@ -1,8 +1,44 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Sveta\\source\\repos\\test1\\wwwroot\\styles.css",
-      "PackagePath": "staticwebassets\\styles.css"
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\FiraCode-Medium.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\FiraCode-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\Hamburger_icon.svg.png",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\Hamburger_icon.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\JetBrainsMono-Bold.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\JetBrainsMono-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\Roboto.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\Roboto.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\RobotoMono-Bold.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\RobotoMono-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\UbuntuMono-Bold.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\UbuntuMono-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\dom.js",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\dom.js"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\favicon.png",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\main.css",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\style.css",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\style.css"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.test1.props",

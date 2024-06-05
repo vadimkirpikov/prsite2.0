@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("JetBrainsMono-Bold.ttf");
+}
+@font-face {
+    font-family: 'Code';
+    src: url("RobotoMono-Bold.ttf");
+}
+@media (max-width:1000px){
+    .horizontal-nav-scroll{
+        margin-left: 30px;
+    }
+    .menu-button {
+        display: inline-block;
+        float: left;
+        background-image: url("hamburger_icon.svg.png");
+        background-size: cover;
+        padding: 15px;
+    }
+    .vertical-menu-content {
+        display: none;
+    }
+    .table-render {
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+@media (min-width:1001px){
+    .render {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .menu-button {
+        display: none;
+    }
+
+    .vertical-menu-content {
+        display: block;
+    }
+    .banner200300{
+        margin-left:240px;
+    }
+}
+body {
+    margin:0;
+    padding:0;
+    font-family: Roboto, serif;
+    font-size:12px;
+}
+header{
+    height:70px;
+    background-color: rgb(52, 58, 64);
+    color:white;
+    font-family:Roboto, serif;
+    font-size:20px;
+    margin-bottom:0px;
+}
+
+#header{
+    float:left;
+    
+}
+#header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.horizontal-nav-scroll{
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: rgb(52, 58, 64);
+    border-top:2px dashed gray;
+}
+.horizontal-nav-scroll::-webkit-scrollbar{
+    width:5px;
+    height:10px;
+}
+.horizontal-nav-scroll::-webkit-scrollbar-track{
+    background-color: transparent;
+    width:5px;
+    height: 10px;
+}
+.horizontal-nav-scroll::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
+
+}
+.horizontal-tutorial{
+    display: inline-block;
+    text-align: center;
+    padding:10px 30px;
+    color:white;
+    background-color: rgb(52, 58, 64);
+    margin:0px;
+    text-decoration: none;
+}
+.horizontal-tutorial:hover{
+    color: rgb(52, 58, 64);
+    background-color: lightgreen;
+}
+
+
+code::-webkit-scrollbar {
+    width: 5px;
+}
+
+code::-webkit-scrollbar-track {
+    background: transparent;
+    width:5px;
+}
+
+code::-webkit-scrollbar-thumb {
+    background-color: rgb(52, 58, 64);
+    border-radius: 10px;
+}
+
+.vertical-menu-content{
+    height:calc(100% - 110px);
+    background-color:white;
+    width:240px;
+    position:fixed;
+    top:110px;
+    float:left;
+    overflow-y: scroll;
+}
+.vertical-menu-content::-webkit-scrollbar {
+    width: 12px;
+}
+.vertical-menu-content::-webkit-scrollbar-track {
+    background-color: gray;
+    width:12px;
+}
+
+.vertical-menu-content::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.show {
+    display: block;
+}
+.item{
+    margin: 0;
+    display: block;
+    padding: 10px;
+    background-color: rgb(52, 58, 64);
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid white;
+}
+.mainbody{
+    position: fixed;
+    width: 100%;
+    left:0;
+    top:0;
+}
+.render{
+    margin-top: 130px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:2px dashed rgb(52, 58, 64);
+}
+.page-swap{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.swap{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(52, 58, 64);
+    display: block;
+}
+.forward{
+    float: right;
+}
+.back{
+    float: left;
+}
+table{
+    border: 2px dashed rgb(52, 58, 64);
+    text-align: left;
+    border-collapse: collapse;
+}
+td, th{
+    border: 3px solid rgb(52, 58, 64);
+    padding: 3px;
+}
+code {
+    font-family: Code, serif;
+}
+.selected {
+    background-color: lightgreen;
+    color: black;
+}
