@@ -25,12 +25,28 @@
       "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\UbuntuMono-Bold.ttf"
     },
     {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\dark.css",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\dark.css"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\dist\\clipboard.js",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\dist\\clipboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\dist\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\dist\\clipboard.min.js"
+    },
+    {
       "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\dom.js",
       "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\dom.js"
     },
     {
       "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\favicon.png",
       "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\light.css",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\light.css"
     },
     {
       "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\main.css",

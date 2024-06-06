@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using test1.TestModels;
-using test1.Middleware;
+using test1.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

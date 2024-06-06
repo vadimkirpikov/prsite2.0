@@ -26,7 +26,7 @@
     }
 }
 @media (min-width:1001px){
-    .render {
+    .render, footer {
         margin-left: 300px;
         margin-right: 300px;
     }
@@ -37,9 +37,6 @@
     .vertical-menu-content {
         display: block;
     }
-    .banner200300{
-        margin-left:240px;
-    }
 }
 body {
     margin:0;
@@ -49,8 +46,6 @@ body {
 }
 header{
     height:70px;
-    background-color: rgb(52, 58, 64);
-    color:white;
     font-family:Roboto, serif;
     font-size:20px;
     margin-bottom:0px;
@@ -62,45 +57,36 @@ header{
 }
 #header a{
     text-decoration: none;
-    color: white;
 }
 
 
 .horizontal-nav-scroll{
     overflow-x: auto;
     white-space: nowrap;
-    background-color: rgb(52, 58, 64);
-    border-top:2px dashed gray;
 }
 .horizontal-nav-scroll::-webkit-scrollbar{
     width:5px;
     height:10px;
 }
 .horizontal-nav-scroll::-webkit-scrollbar-track{
-    background-color: transparent;
     width:5px;
     height: 10px;
 }
 .horizontal-nav-scroll::-webkit-scrollbar-thumb{
-    background-color: gray;
     border-radius: 10px;
-
 }
 .horizontal-tutorial{
     display: inline-block;
     text-align: center;
     padding:10px 30px;
-    color:white;
-    background-color: rgb(52, 58, 64);
     margin:0px;
     text-decoration: none;
 }
 .horizontal-tutorial:hover{
-    color: rgb(52, 58, 64);
+    color: #0d1117;
     background-color: lightgreen;
 }
-
-
+ 
 code::-webkit-scrollbar {
     width: 5px;
 }
@@ -111,7 +97,6 @@ code::-webkit-scrollbar-track {
 }
 
 code::-webkit-scrollbar-thumb {
-    background-color: rgb(52, 58, 64);
     border-radius: 10px;
 }
 
@@ -122,18 +107,16 @@ code::-webkit-scrollbar-thumb {
     position:fixed;
     top:110px;
     float:left;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .vertical-menu-content::-webkit-scrollbar {
     width: 12px;
 }
 .vertical-menu-content::-webkit-scrollbar-track {
-    background-color: gray;
     width:12px;
 }
 
 .vertical-menu-content::-webkit-scrollbar-thumb {
-    background-color: black;
     border-radius: 10px;
 }
 
@@ -144,10 +127,7 @@ code::-webkit-scrollbar-thumb {
     margin: 0;
     display: block;
     padding: 10px;
-    background-color: rgb(52, 58, 64);
     text-decoration: none;
-    color: white;
-    border-bottom: 3px solid white;
 }
 .mainbody{
     position: fixed;
@@ -159,7 +139,6 @@ code::-webkit-scrollbar-thumb {
     margin-top: 130px;
     padding-left: 15px;
     padding-right: 15px;
-    border:2px dashed rgb(52, 58, 64);
 }
 .page-swap{
     display: block;
@@ -168,9 +147,7 @@ code::-webkit-scrollbar-thumb {
 }
 .swap{
     text-decoration: none;
-    color: white;
     padding: 10px;
-    background-color: rgb(52, 58, 64);
     display: block;
 }
 .forward{
@@ -180,12 +157,10 @@ code::-webkit-scrollbar-thumb {
     float: left;
 }
 table{
-    border: 2px dashed rgb(52, 58, 64);
     text-align: left;
     border-collapse: collapse;
 }
 td, th{
-    border: 3px solid rgb(52, 58, 64);
     padding: 3px;
 }
 code {
@@ -194,4 +169,18 @@ code {
 .selected {
     background-color: lightgreen;
     color: black;
+}
+
+.copy-button {
+    margin: 0;
+    font-family: Code;
+}
+
+pre {
+    margin-top: 0;
+}
+footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

@@ -1,4 +1,5 @@
-﻿namespace test1.TestModels;
+﻿namespace test1.Models;
+
 
 public interface IDescription
 {

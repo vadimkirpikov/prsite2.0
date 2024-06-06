@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace test1.TestModels;
 
-public partial class Chapter
+public class Chapter
 {
     public int Id { get; set; }
 

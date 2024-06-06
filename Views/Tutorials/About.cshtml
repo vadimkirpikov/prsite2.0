@@ -15,10 +15,10 @@
         return new HtmlString(res);
     }
 }
-<div>
+<article>
     <script>makeMark(@ViewBag.Tutorial.Id)</script>
     @PageSwap()
     <h2>@ViewBag.Tutorial.Title</h2>
     @(new HtmlString(ViewBag.Tutorial.Text))
     @PageSwap()
-</div>       
+</article>       

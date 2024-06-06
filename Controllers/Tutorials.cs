@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using test1.TestModels;
+using test1.Models;
 
 namespace test1.Controllers;
 
@@ -24,7 +24,8 @@ public class Tutorials : Controller
         ViewBag.Tutorials = tutorials;
         ViewBag.BackLink = previousTutorialUrl;
         ViewBag.ForwardLink = nextTutorialUrl;
-        
+        ViewBag.Description = tutorial.Description;
+        ViewBag.KeyWords = tutorial.Keywords;
         
         return View();
     }

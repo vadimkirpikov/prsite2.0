@@ -24,4 +24,20 @@
     <Folder Include="wwwroot\staticfiles1\staticfiles2\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="TestModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="TestModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="TestModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="TestModels\**" />
+  </ItemGroup>
+
 </Project>

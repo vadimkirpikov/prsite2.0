@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace test1.TestModels;
+namespace test1.Models;
 
-public class Tutorial
+public class Chapter
 {
     public int Id { get; set; }
 
@@ -11,9 +11,7 @@ public class Tutorial
 
     public string? Title { get; set; }
 
-    public string Url { get; set; }
-
-    public string? Text { get; set; }
+    public int? SectionId { get; set; }
 
     public int? ChapterId { get; set; }
 }
