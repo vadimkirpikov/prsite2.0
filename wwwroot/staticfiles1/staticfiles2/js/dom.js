@@ -1,5 +1,11 @@
 ﻿function showVerticalMenu() {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("vertical-menu").classList.toggle("show");
+}
+function visitTelegram() {
+    document.location.href = "https://t.me/+qce_aMn5dRk1NGIy";
+}
+function visitVk() {
+    document.location.href = "https://t.me/+qce_aMn5dRk1NGIy";
 }
 function setClipboardButton(){
     var codeSnippets = document.querySelectorAll('pre');
@@ -82,7 +88,7 @@ function loadTheme() {
         setActiveTheme(currentTheme);
     }
 }
-function e() {
+function switchTheme() {
     clearCode();
     clearCode();
     changeTheme(localStorage.getItem("theme"));

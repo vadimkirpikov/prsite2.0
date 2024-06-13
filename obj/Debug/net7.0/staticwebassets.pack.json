@@ -1,48 +1,76 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\FiraCode-Medium.ttf",
-      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\FiraCode-Medium.ttf"
-    },
-    {
-      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\Hamburger_icon.svg.png",
-      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\Hamburger_icon.svg.png"
-    },
-    {
-      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\JetBrainsMono-Bold.ttf",
-      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\JetBrainsMono-Bold.ttf"
-    },
-    {
-      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\Roboto.ttf",
-      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\Roboto.ttf"
-    },
-    {
-      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\RobotoMono-Bold.ttf",
-      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\RobotoMono-Bold.ttf"
-    },
-    {
-      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\UbuntuMono-Bold.ttf",
-      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\UbuntuMono-Bold.ttf"
-    },
-    {
       "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\dark.css",
       "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\dark.css"
     },
     {
-      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\dist\\clipboard.js",
-      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\dist\\clipboard.js"
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Bold.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\dist\\clipboard.min.js",
-      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\dist\\clipboard.min.js"
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\RobotoMono-Bold.ttf",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\fonts\\RobotoMono-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\dom.js",
-      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\dom.js"
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\Hamburger_icon.svg.png",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\Hamburger_icon.svg.png"
     },
     {
-      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\favicon.png",
-      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\favicon.png"
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\favicon.png",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\mainicon.png",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\mainicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark-hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light-hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark-hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light-hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark-hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-light-hover.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\vk-light-hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-light.svg",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\icons\\vk-light.svg"
     },
     {
       "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\light.css",
@@ -55,6 +83,18 @@
     {
       "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\style.css",
       "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\js\\clipboard.js",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\js\\clipboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\js\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\js\\clipboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\js\\dom.js",
+      "PackagePath": "staticwebassets\\staticfiles1\\staticfiles2\\js\\dom.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.test1.props",

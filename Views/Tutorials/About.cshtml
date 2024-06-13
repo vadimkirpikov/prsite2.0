@@ -9,16 +9,14 @@
         }
         if (!ViewBag.ForwardLink.Equals("invalid"))
         {
-            res += $"<a class='swap forward' href='{ViewBag.ForwardLink}'>ВПЕРЕД</a>";
+            res += $"<a class='swap forward' href='{ViewBag.ForwardLink}'>ДАЛЕЕ</a>";
         }
         res += "</p>";
         return new HtmlString(res);
     }
 }
-<article>
-    <script>makeMark(@ViewBag.Tutorial.Id)</script>
-    @PageSwap()
-    <h2>@ViewBag.Tutorial.Title</h2>
-    @(new HtmlString(ViewBag.Tutorial.Text))
-    @PageSwap()
-</article>       
+<script>makeMark(@ViewBag.Tutorial.Id)</script>
+@PageSwap()
+<h2>@ViewBag.Tutorial.Title</h2>
+@(new HtmlString(ViewBag.Tutorial.Text))
+@PageSwap()

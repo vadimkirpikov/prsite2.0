@@ -1,4 +1,6 @@
-﻿
+﻿@{
+    var theName = "PROGA.RU";
+}
 <!DOCTYPE html>
 <html lang="en-ru">
 <head>
@@ -8,44 +10,57 @@
     <meta name="description" content=@ViewBag.Description>
     <meta name="keywords" content=@ViewBag.KeyWords>
     <link rel="stylesheet" href="~/staticfiles1/staticfiles2/css/style.css"/>
-    <link rel="icon" href="~/staticfiles1/staticfiles2/css/favicon.png"/>
+    <link rel="icon" href="~/staticfiles1/staticfiles2/css/icons/favicon.png"/>
     <link rel="stylesheet" href="~/staticfiles1/staticfiles2/css/dark.css" id="dark-theme">
     <link rel="stylesheet" href="~/staticfiles1/staticfiles2/css/light.css" id="light-theme">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <script src="~/staticfiles1/staticfiles2/css/dist/clipboard.min.js"></script>
-    <script src="~/staticfiles1/staticfiles2/css/dom.js"></script>
+    <script src="~/staticfiles1/staticfiles2/js/clipboard.min.js"></script>
+    <script src="~/staticfiles1/staticfiles2/js/dom.js"></script>
     <script>loadTheme()</script>
 </head>
 <body>
 <div class="mainbody">
     <header>
-        <div id="header"><a href="/"><b class="main_title">PROGA.RU</b></a></div>
+        <div id="header"><a style="display: block" href="/"><b>@theName</b></a>       
+            <button class="telegram" onclick="visitTelegram()"></button>
+            <button class="vk" onclick="visitVk()"></button>
+            <button class="theme-switcher" onclick="switchTheme()"></button>
+        </div>    
     </header>
     <button class="menu-button" onclick="showVerticalMenu()"></button>
-    <nav class="vertical-menu-content" id="myDropdown">
-            @{
-                foreach (var tutorial in ViewBag.Tutorials)
+    <nav class="vertical-menu-content" id="vertical-menu">
+        @{
+            var currentChapter = 0;
+            foreach (var tutorial in ViewBag.Tutorials)
+            {
+                if (ViewBag.IsTutorial)
                 {
-                    <a id=@tutorial.Id class="item" href=@tutorial.Url><b>@tutorial.Title</b></a>
+                    if (currentChapter != tutorial.ChapterId)
+                    {
+                        currentChapter = tutorial.ChapterId;
+                        <div class="chapter"><b>@ViewBag.Chapters[currentChapter]</b></div>
+                    }
                 }
+                <a id=@tutorial.Id class="item" href=@tutorial.Url><b>@tutorial.Title</b></a>
             }
-    </nav>    
-    <nav class="horizontal-nav-scroll">
-        @foreach (var s in ViewBag.Sections)
-        {
-            <a class="horizontal-tutorial" href=@s.Url><b>@s.Title</b></a>
+                
         }
-    </nav>
+    </nav>    
+            <nav class="horizontal-nav-scroll">
+                   @foreach (var s in ViewBag.Sections)
+                   {
+                       <a class="horizontal-tutorial" href=@s.Url><b>@s.Title</b></a>
+                   }
+            </nav>       
 </div>
 <article class="render">
     @RenderBody()
 </article>
 <script>setClipboardButton()</script>
-<footer style="">
-    <button onclick="e()">ТЕМАСМЕНАБЛЯТЬ)</button>
-    <p>ВКонтакте | Телеграм</p>
-    <p>&copy; 2024 PROGA.RU. Все права защищены</p>
+<footer>
+    <p><a href="https://t.me/+qce_aMn5dRk1NGIy">Телеграм</a> | <a href="https://t.me/+qce_aMn5dRk1NGIy">ВКонтакте</a></p>
+    <p>&copy; 2024 @theName Все права защищены</p>
 </footer>
 </body>
 </html>

@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Roboto';
-    src: url("JetBrainsMono-Bold.ttf");
+    src: url("fonts/JetBrainsMono-Bold.ttf");
 }
 @font-face {
     font-family: 'Code';
-    src: url("RobotoMono-Bold.ttf");
+    src: url("fonts/RobotoMono-Bold.ttf");
 }
 @media (max-width:1000px){
     .horizontal-nav-scroll{
-        margin-left: 30px;
+        margin-left: 40px;
     }
     .menu-button {
         display: inline-block;
         float: left;
-        background-image: url("hamburger_icon.svg.png");
+        background-image: url("icons/Hamburger_icon.svg.png");
         background-size: cover;
-        padding: 15px;
+        padding: 20px;
     }
     .vertical-menu-content {
         display: none;
@@ -47,19 +47,16 @@ body {
 header{
     height:70px;
     font-family:Roboto, serif;
-    font-size:20px;
     margin-bottom:0px;
 }
 
 #header{
-    float:left;
-    
+    text-align: left;
+    font-size:20px;
 }
 #header a{
     text-decoration: none;
 }
-
-
 .horizontal-nav-scroll{
     overflow-x: auto;
     white-space: nowrap;
@@ -71,6 +68,7 @@ header{
 .horizontal-nav-scroll::-webkit-scrollbar-track{
     width:5px;
     height: 10px;
+    border-radius: 10px;
 }
 .horizontal-nav-scroll::-webkit-scrollbar-thumb{
     border-radius: 10px;
@@ -88,12 +86,13 @@ header{
 }
  
 code::-webkit-scrollbar {
-    width: 5px;
+    height: 12px;
 }
 
 code::-webkit-scrollbar-track {
     background: transparent;
     width:5px;
+    border-radius: 10px;
 }
 
 code::-webkit-scrollbar-thumb {
@@ -101,19 +100,22 @@ code::-webkit-scrollbar-thumb {
 }
 
 .vertical-menu-content{
-    height:calc(100% - 110px);
+    height:calc(100% - 120px);
     background-color:white;
     width:240px;
     position:fixed;
-    top:110px;
     float:left;
+    top:120px;
     overflow-y: auto;
+    border-top: 2px solid;
+    border-right: 2px solid;
 }
 .vertical-menu-content::-webkit-scrollbar {
     width: 12px;
 }
 .vertical-menu-content::-webkit-scrollbar-track {
     width:12px;
+    border-radius: 10px;
 }
 
 .vertical-menu-content::-webkit-scrollbar-thumb {
@@ -136,7 +138,7 @@ code::-webkit-scrollbar-thumb {
     top:0;
 }
 .render{
-    margin-top: 130px;
+    padding-top: 130px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -183,4 +185,28 @@ footer {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.chapter {
+    padding: 15px 5px 15px 10px;
+    font-size: 14px;
+}
+.theme-switcher {
+    background-size: cover;
+    padding: 20px;
+    border: none;
+    background-color: transparent;
+}
+.tutorial {
+    padding:20px;
+    border-radius: 5px;
+}
+.telegram, .vk {
+    padding: 20px;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
 }

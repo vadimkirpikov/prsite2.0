@@ -21,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\staticfiles1\staticfiles2\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Remove="TestModels\**" />
   </ItemGroup>
 
@@ -38,6 +34,11 @@
 
   <ItemGroup>
     <None Remove="TestModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\staticfiles1\staticfiles2\css\fonts\JetBrainsMono-Bold.ttf" />
+    <_ContentIncludedByDefault Remove="wwwroot\staticfiles1\staticfiles2\css\fonts\RobotoMono-Bold.ttf" />
   </ItemGroup>
 
 </Project>

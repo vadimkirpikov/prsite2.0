@@ -18,10 +18,7 @@ public class ProgrammSiteContext : DbContext
     public DbSet<Section> Sections { get; set; }
 
     public DbSet<Tutorial> Tutorials { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseMySQL("server=localhost;user=vadimkirpikov;password=texus-find12345VadQWE#;database=programm_site;");
-
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Chapter>(entity =>
@@ -75,6 +72,5 @@ public class ProgrammSiteContext : DbContext
             entity.Property(e => e.Title).HasColumnName("title");
             entity.Property(e => e.Url).HasColumnName("url");
         });
-        
     }
 }

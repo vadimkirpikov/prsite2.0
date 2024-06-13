@@ -24,18 +24,18 @@ header{
     height:10px;
 }
 .horizontal-nav-scroll::-webkit-scrollbar-track{
-    background-color: transparent;
+    background-color: rgb(150, 150, 150);
 }
 .horizontal-nav-scroll::-webkit-scrollbar-thumb{
-    background-color: #0d1117;
+    background-color: white;
 }
 .horizontal-tutorial{
     color:white;
     background-color: #0d1117;
 }
 .horizontal-tutorial:hover{
-    color: #0d1117;
-    background-color: lightgreen;
+    color: white;
+    background-color: darkslateblue;
 }
 
 code::-webkit-scrollbar {
@@ -46,15 +46,12 @@ code::-webkit-scrollbar-track {
 }
 
 code::-webkit-scrollbar-thumb {
-    background-color: #0d1117;
+    background-color: white;
 }
 
 .vertical-menu-content{
     background-color:#0d1117;
-    border: 2px solid white;
-}
-.vertical-menu-content::-webkit-scrollbar {
-    width: 12px;
+    border-color: white;
 }
 .vertical-menu-content::-webkit-scrollbar-track {
     background-color: rgb(150, 150, 150);
@@ -66,6 +63,10 @@ code::-webkit-scrollbar-thumb {
     background-color: #0d1117;
     color: white;
     border-bottom: 3px solid white;
+}
+.item:hover{
+    background-color: darkslateblue;
+    color: white;
 }
 .render{
     border:2px dashed white;
@@ -85,8 +86,8 @@ code {
     color: white;
 }
 .selected {
-    background-color: lightgreen;
-    color: black;
+    background-color: darkslateblue;
+    color: white;
 }
 
 .copy-button {
@@ -100,4 +101,38 @@ pre {
 footer {
     background-color: #0d1117;
     color: white;
+}
+section {
+    background-color: #0d1117;
+}
+#hero {
+    color: white;
+}
+.chapter {
+    border-bottom: 3px solid white;
+    background-color: darkred;
+}
+.tutorial {
+    background-color: darkslateblue;
+}
+.telegram {
+    background-image: url("icons/telegram-dark.svg");
+}
+.telegram:hover {
+    background-image: url("icons/telegram-dark-hover.svg");
+}
+.vk {
+    background-image: url("icons/vk-dark.svg");
+}
+.vk:hover {
+    background-image: url("icons/vk-dark-hover.svg");
+}
+.theme-switcher {
+    background-image: url("icons/theme-switch-dark.svg");
+}
+.theme-switcher:hover {
+    background-image: url("icons/theme-switch-dark-hover.svg");
+}
+a {
+    color: lightblue;
 }

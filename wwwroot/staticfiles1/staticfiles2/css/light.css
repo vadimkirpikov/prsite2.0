@@ -24,7 +24,7 @@ header{
     height:10px;
 }
 .horizontal-nav-scroll::-webkit-scrollbar-track{
-    background-color: transparent;
+    background-color: rgb(150, 150, 150);
 }
 .horizontal-nav-scroll::-webkit-scrollbar-thumb{
     background-color: #0d1117;
@@ -35,10 +35,7 @@ header{
 }
 .horizontal-tutorial:hover{
     color: #0d1117;
-    background-color: lightgreen;
-}
-
-code::-webkit-scrollbar {
+    background-color: lightblue;
 }
 
 code::-webkit-scrollbar-track {
@@ -46,12 +43,12 @@ code::-webkit-scrollbar-track {
 }
 
 code::-webkit-scrollbar-thumb {
-    background-color: white;
+    background-color: #0d1117;
 }
 
 .vertical-menu-content{
     background-color:white;
-    border: 2px solid #0d1117;
+    border-color: #0d1117;
 }
 .vertical-menu-content::-webkit-scrollbar {
     width: 12px;
@@ -84,7 +81,7 @@ code {
     color: #0d1117;
 }
 .selected {
-    background-color: lightgreen;
+    background-color: lightblue;
     color: black;
 }
 
@@ -99,4 +96,38 @@ pre {
 footer {
     background-color: white;
     color: #0d1117;
+}
+section {
+    background-color: white;
+}
+#hero {
+    color: #0d1117;
+}
+.chapter {
+    border-bottom: 3px solid #0d1117;
+    background-color: lightsalmon;
+}
+.theme-switcher {
+    background-image: url("icons/theme-switch-light.svg");
+}
+.theme-switcher:hover {
+    background-image: url("icons/theme-switch-light-hover.svg");
+}
+.tutorial {
+    background-color: lightblue;
+}
+.telegram {
+    background-image: url("icons/telegram-light.svg");
+}
+.telegram:hover {
+    background-image: url("icons/telegram-light-hover.svg");
+}
+.vk {
+    background-image: url("icons/vk-light.svg");
+}
+.vk:hover {
+    background-image: url("icons/vk-light-hover.svg");
+}
+a {
+    color: darkslateblue;
 }

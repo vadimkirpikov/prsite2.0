@@ -19,11 +19,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #fff;
-}
 
 #hero {
     text-align: center;
@@ -33,12 +28,6 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     grid-gap: 20px;
-}
-
-.tutorial {
-    background-color: lightgreen;
-    padding: 20px;
-    border-radius: 5px;
 }
 
 .tutorial h3 {
