@@ -44,15 +44,14 @@
                 }
                 <a id=@tutorial.Id class="item" href=@tutorial.Url><b>@tutorial.Title</b></a>
             }
-                
         }
     </nav>    
-            <nav class="horizontal-nav-scroll">
-                   @foreach (var s in ViewBag.Sections)
-                   {
-                       <a class="horizontal-tutorial" href=@s.Url><b>@s.Title</b></a>
-                   }
-            </nav>       
+    <nav class="horizontal-nav-scroll">
+        @foreach (var s in ViewBag.Sections)
+        {
+            <a class="horizontal-tutorial" href=@s.Url><b>@s.Title</b></a>
+        }
+    </nav>           
 </div>
 <article class="render">
     @RenderBody()
