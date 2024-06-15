@@ -14,9 +14,9 @@
 # Create a stage for building the application.
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:7.0-alpine AS build
 
-COPY . /var/www/html
+COPY . /source
 
-WORKDIR /var/www/html
+WORKDIR /source
 
 # This is the architecture you’re building for, which is passed in by the builder.
 # Placing it here allows the previous steps to be cached across architectures.
@@ -44,7 +44,7 @@ RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
 # or SHA (e.g., mcr.microsoft.com/dotnet/aspnet@sha256:f3d99f54d504a21d38e4cc2f13ff47d67235efeeb85c109d3d1ff1808b38d034).
 FROM mcr.microsoft.com/dotnet/aspnet:7.0-alpine AS final
 WORKDIR /app
-
+ENV ASPNETCORE_URLS=http://+:80
 # Copy everything needed to run the app from the "build" stage.
 COPY --from=build /app .
 
