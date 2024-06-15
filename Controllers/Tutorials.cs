@@ -16,6 +16,7 @@ public class Tutorials : Controller
     }
 
     [Route("{lang}/{section}/{shortname}")]
+    [ResponseCache(Duration = 600, Location = ResponseCacheLocation.Client, NoStore = false)]
     public IActionResult About(string lang, string section, string shortname)
     {
 
