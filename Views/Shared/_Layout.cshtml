@@ -37,14 +37,11 @@
                     var currentChapter = 0;
                     foreach (var tutorial in ViewBag.Tutorials)
                     {
-                        if (ViewBag.IsTutorial)
-                        {
                             if (currentChapter != tutorial.ChapterId)
                             {
                                 currentChapter = tutorial.ChapterId;
                                 <div class="chapter"><b>@ViewBag.Chapters[currentChapter]</b></div>
                             }
-                        }
                         <a id=@tutorial.Id class="item" href=@tutorial.Url><b>@tutorial.Title</b></a>
                     }
                 }
