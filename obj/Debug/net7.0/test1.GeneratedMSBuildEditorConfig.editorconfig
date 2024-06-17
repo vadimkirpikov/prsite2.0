@@ -9,31 +9,31 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = test1
 build_property.RootNamespace = test1
-build_property.ProjectDir = C:\Users\Vadim\Desktop\test1\prsite2.0\
+build_property.ProjectDir = \\wsl.localhost\Debian\home\vadimkirpikov\programm\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Vadim\Desktop\test1\prsite2.0
+build_property.MSBuildProjectDirectory = \\wsl.localhost\Debian\home\vadimkirpikov\programm
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Vadim/Desktop/test1/prsite2.0/Views/Error/NotFoundPage.cshtml]
+[//wsl.localhost/Debian/home/vadimkirpikov/programm/Views/Error/NotFoundPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcTm90Rm91bmRQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vadim/Desktop/test1/prsite2.0/Views/Shared/_Layout.cshtml]
+[//wsl.localhost/Debian/home/vadimkirpikov/programm/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vadim/Desktop/test1/prsite2.0/Views/Tutorials/About.cshtml]
+[//wsl.localhost/Debian/home/vadimkirpikov/programm/Views/Tutorials/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JpYWxzXEFib3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vadim/Desktop/test1/prsite2.0/Views/Tutorials/Main.cshtml]
+[//wsl.localhost/Debian/home/vadimkirpikov/programm/Views/Tutorials/Main.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JpYWxzXE1haW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vadim/Desktop/test1/prsite2.0/Views/_ViewStart.cshtml]
+[//wsl.localhost/Debian/home/vadimkirpikov/programm/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

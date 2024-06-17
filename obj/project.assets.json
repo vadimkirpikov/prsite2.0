@@ -2711,11 +2711,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\test1.csproj",
+      "projectUniqueName": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\test1.csproj",
       "projectName": "test1",
-      "projectPath": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\test1.csproj",
+      "projectPath": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\test1.csproj",
       "packagesPath": "C:\\Users\\Vadim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\obj\\",
+      "outputPath": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -23,7 +23,6 @@ app.MapControllerRoute(
 app.Use(async (context, next) =>
     {
         await next();
-        //Console.WriteLine(context.Response.StatusCode+" "+context.Request.Path);
         if (context.Response.StatusCode == 404)
         {
             context.Response.Redirect("/Error/page/was/not/found");

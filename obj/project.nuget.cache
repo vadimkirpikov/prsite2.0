@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kZ+o34Kkw55ubq0Z39l5NFJmblo2jXkvK1CERM+CWnEqf4Bnu0itono0sGSsgZ0QhDiNw9dCMoMcFhlvd2ZP7Q==",
+  "dgSpecHash": "vGI4o93b69AGIillsIgX0IALn10KF9RuCeJamsYTYlYOlsprwI9tG4tR4QTDB54/u04ChHruvFL5cc6WWissSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\test1.csproj",
+  "projectFilePath": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\test1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vadim\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Vadim\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

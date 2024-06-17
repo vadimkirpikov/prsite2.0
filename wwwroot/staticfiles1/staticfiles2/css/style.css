@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto';
-    src: url("fonts/JetBrainsMono-Bold.ttf");
+    src: url("fonts/JetBrainsMono-Regular.ttf");
 }
 @font-face {
     font-family: 'Code';
@@ -42,7 +42,7 @@ body {
     margin:0;
     padding:0;
     font-family: Roboto, serif;
-    font-size:12px;
+    font-size:14px;
 }
 header{
     height:70px;
@@ -68,10 +68,6 @@ header{
 .horizontal-nav-scroll::-webkit-scrollbar-track{
     width:5px;
     height: 10px;
-    border-radius: 10px;
-}
-.horizontal-nav-scroll::-webkit-scrollbar-thumb{
-    border-radius: 10px;
 }
 .horizontal-tutorial{
     display: inline-block;
@@ -79,10 +75,10 @@ header{
     padding:10px 30px;
     margin:0px;
     text-decoration: none;
+    border-right: 2px solid;
 }
 .horizontal-tutorial:hover{
-    color: #0d1117;
-    background-color: lightgreen;
+    font-weight: bold;
 }
  
 code::-webkit-scrollbar {
@@ -92,13 +88,8 @@ code::-webkit-scrollbar {
 code::-webkit-scrollbar-track {
     background: transparent;
     width:5px;
-    border-radius: 10px;
 }
-
-code::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-}
-
+ 
 .vertical-menu-content{
     height:calc(100% - 120px);
     background-color:white;
@@ -115,12 +106,8 @@ code::-webkit-scrollbar-thumb {
 }
 .vertical-menu-content::-webkit-scrollbar-track {
     width:12px;
-    border-radius: 10px;
 }
 
-.vertical-menu-content::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-}
 
 .show {
     display: block;
@@ -151,6 +138,9 @@ code::-webkit-scrollbar-thumb {
     text-decoration: none;
     padding: 10px;
     display: block;
+}
+.swap:hover{
+    font-weight: bold;
 }
 .forward{
     float: right;

@@ -16,8 +16,8 @@ header{
 
 .horizontal-nav-scroll{
     background-color: #0d1117;
-    border-top:2px dashed white;
-    border-bottom:2px dashed white;
+    border-top:2px solid white;
+    border-bottom:2px solid white;
 }
 .horizontal-nav-scroll::-webkit-scrollbar{
     width:5px;
@@ -32,15 +32,12 @@ header{
 .horizontal-tutorial{
     color:white;
     background-color: #0d1117;
+    border-color: white;
 }
 .horizontal-tutorial:hover{
     color: white;
     background-color: darkslateblue;
 }
-
-code::-webkit-scrollbar {
-}
-
 code::-webkit-scrollbar-track {
     background: transparent;
 }
@@ -69,14 +66,14 @@ code::-webkit-scrollbar-thumb {
     color: white;
 }
 .render{
-    border:2px dashed white;
+    border:2px solid white;
 }
 .swap{
     color: #0d1117;
     background-color: white;
 }
 table{
-    border: 2px dashed white;
+    border: 2px solid white;
 }
 td, th{
     border: 3px solid white;
@@ -101,6 +98,7 @@ pre {
 footer {
     background-color: #0d1117;
     color: white;
+    border-color: white;
 }
 section {
     background-color: #0d1117;

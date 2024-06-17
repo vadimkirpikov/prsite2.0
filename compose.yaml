@@ -12,8 +12,6 @@ services:
     build:
       context: .
       target: final
-    ports:
-      - "5291:5291"
     environment:
       ASPNETCORE_URLS: http://+:5291
     depends_on: 

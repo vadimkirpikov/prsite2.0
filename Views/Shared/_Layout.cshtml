@@ -1,5 +1,5 @@
 ﻿@{
-    var theName = "PROGA.RU";
+    var theName = "CODEINIT.RU";
 }
 <!DOCTYPE html>
 <html lang="en-ru">
@@ -28,28 +28,43 @@
             <button class="theme-switcher" onclick="switchTheme()"></button>
         </div>    
     </header>
-    <button class="menu-button" onclick="showVerticalMenu()"></button>
-    <nav class="vertical-menu-content" id="vertical-menu">
-        @{
-            var currentChapter = 0;
-            foreach (var tutorial in ViewBag.Tutorials)
-            {
-                if (ViewBag.IsTutorial)
-                {
-                    if (currentChapter != tutorial.ChapterId)
+    @{
+        if (ViewBag.IsTutorial)
+        {
+            <button class="menu-button" onclick="showVerticalMenu()"></button>
+            <nav class="vertical-menu-content" id="vertical-menu">
+                @{
+                    var currentChapter = 0;
+                    foreach (var tutorial in ViewBag.Tutorials)
                     {
-                        currentChapter = tutorial.ChapterId;
-                        <div class="chapter"><b>@ViewBag.Chapters[currentChapter]</b></div>
+                        if (ViewBag.IsTutorial)
+                        {
+                            if (currentChapter != tutorial.ChapterId)
+                            {
+                                currentChapter = tutorial.ChapterId;
+                                <div class="chapter"><b>@ViewBag.Chapters[currentChapter]</b></div>
+                            }
+                        }
+                        <a id=@tutorial.Id class="item" href=@tutorial.Url><b>@tutorial.Title</b></a>
                     }
                 }
-                <a id=@tutorial.Id class="item" href=@tutorial.Url><b>@tutorial.Title</b></a>
-            }
+            </nav>
         }
-    </nav>    
+    }
+    @{
+        if (!ViewBag.IsTutorial)
+        {
+            <style>
+                .horizontal-nav-scroll {
+                    margin-left: 0;
+                }
+            </style>
+        }
+    }    
     <nav class="horizontal-nav-scroll">
         @foreach (var s in ViewBag.Sections)
         {
-            <a class="horizontal-tutorial" href=@s.Url><b>@s.Title</b></a>
+            <a class="horizontal-tutorial" href=@s.Url>@s.Title</a>
         }
     </nav>           
 </div>

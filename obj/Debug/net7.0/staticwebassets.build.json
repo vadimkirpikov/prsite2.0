@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9plxdu2cWY6fl7g7kkK2W87xO7lsDPQTAcUOJ0i/oD4=",
+  "Hash": "TBYbdSKGiMj/D/wL6QlI8d6/G2ExCAmK+SF7EfOwHq0=",
   "Source": "test1",
   "BasePath": "_content/test1",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "test1\\wwwroot",
       "Source": "test1",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\dark.css",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\dark.css",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/dark.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\dark.css"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Bold.ttf",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Bold.ttf",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/fonts/JetBrainsMono-Bold.ttf",
       "AssetKind": "All",
@@ -55,10 +55,48 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Bold.ttf"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\RobotoMono-Bold.ttf",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-ExtraLight.ttf",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
+      "BasePath": "_content/test1",
+      "RelativePath": "staticfiles1/staticfiles2/css/fonts/JetBrainsMono-ExtraLight.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-ExtraLight.ttf"
+    },
+    {
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Regular.ttf",
+      "SourceId": "test1",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
+      "BasePath": "_content/test1",
+      "RelativePath": "staticfiles1/staticfiles2/css/fonts/JetBrainsMono-Regular.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\JetBrainsMono-Regular.ttf"
+    },
+    {
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\RobotoMono-Bold.ttf",
+      "SourceId": "test1",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/fonts/RobotoMono-Bold.ttf",
       "AssetKind": "All",
@@ -74,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\fonts\\RobotoMono-Bold.ttf"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\favicon.png",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\favicon.png",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/favicon.png",
       "AssetKind": "All",
@@ -93,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\Hamburger_icon.svg.png",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\Hamburger_icon.svg.png",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/Hamburger_icon.svg.png",
       "AssetKind": "All",
@@ -112,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\Hamburger_icon.svg.png"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\mainicon.png",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\mainicon.png",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/mainicon.png",
       "AssetKind": "All",
@@ -131,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\mainicon.png"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark-hover.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark-hover.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/telegram-dark-hover.svg",
       "AssetKind": "All",
@@ -150,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark-hover.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/telegram-dark.svg",
       "AssetKind": "All",
@@ -169,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light-hover.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light-hover.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/telegram-light-hover.svg",
       "AssetKind": "All",
@@ -188,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light-hover.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/telegram-light.svg",
       "AssetKind": "All",
@@ -207,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\telegram-light.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark-hover.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark-hover.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/theme-switch-dark-hover.svg",
       "AssetKind": "All",
@@ -226,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark-hover.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/theme-switch-dark.svg",
       "AssetKind": "All",
@@ -245,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light-hover.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light-hover.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/theme-switch-light-hover.svg",
       "AssetKind": "All",
@@ -264,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light-hover.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/theme-switch-light.svg",
       "AssetKind": "All",
@@ -283,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\theme-switch-light.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark-hover.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark-hover.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/vk-dark-hover.svg",
       "AssetKind": "All",
@@ -302,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark-hover.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/vk-dark.svg",
       "AssetKind": "All",
@@ -321,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-light-hover.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-light-hover.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/vk-light-hover.svg",
       "AssetKind": "All",
@@ -340,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-light-hover.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-light.svg",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-light.svg",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/icons/vk-light.svg",
       "AssetKind": "All",
@@ -359,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\icons\\vk-light.svg"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\light.css",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\light.css",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/light.css",
       "AssetKind": "All",
@@ -378,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\light.css"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\main.css",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\main.css",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/main.css",
       "AssetKind": "All",
@@ -397,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\main.css"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\css\\style.css",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\css\\style.css",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/css/style.css",
       "AssetKind": "All",
@@ -416,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\js\\clipboard.js",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\js\\clipboard.js",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/js/clipboard.js",
       "AssetKind": "All",
@@ -435,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\js\\clipboard.js"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\js\\clipboard.min.js",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\js\\clipboard.min.js",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/js/clipboard.min.js",
       "AssetKind": "All",
@@ -454,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\staticfiles1\\staticfiles2\\js\\clipboard.min.js"
     },
     {
-      "Identity": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\staticfiles1\\staticfiles2\\js\\dom.js",
+      "Identity": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\staticfiles1\\staticfiles2\\js\\dom.js",
       "SourceId": "test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vadim\\Desktop\\test1\\prsite2.0\\wwwroot\\",
+      "ContentRoot": "\\\\wsl.localhost\\Debian\\home\\vadimkirpikov\\programm\\wwwroot\\",
       "BasePath": "_content/test1",
       "RelativePath": "staticfiles1/staticfiles2/js/dom.js",
       "AssetKind": "All",
